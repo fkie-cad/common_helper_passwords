@@ -7,10 +7,7 @@ setup(
     version=VERSION,
     packages=find_packages(),
     install_requires=[
-        'common_helper_files >= 0.2'
-    ],
-    dependency_links=[
-        'https://github.com/fkie-cad/common_helper_files/tarball/master#egg=common_helper_files-0.2'
+        'common_helper_files @ git+https://github.com/fkie-cad/common_helper_files.git'
     ],
     description="Helper functions for handling password lists and files.",
     author="Fraunhofer FKIE",
